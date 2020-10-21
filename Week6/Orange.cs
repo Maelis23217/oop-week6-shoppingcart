@@ -13,14 +13,6 @@ namespace Week6
             oranges = new List<Shopping_Cart>();
 
         }
-        public double CalculatePrice()
-        {
-            double total = 0;
-            foreach (Orange o in oranges)
-            {
-                total += FruitPrices.CalculateCharge();
-            }
-            return total;
-        }
+        
    }
 }

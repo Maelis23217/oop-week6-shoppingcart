@@ -6,5 +6,13 @@ namespace Week6
 {
     class Apple
     {
+        public List<Shopping_Cart> apples { get; set; }
+
+        public Apple()
+        {
+            apples = new List<Shopping_Cart>();
+
+        }
+
     }
 }

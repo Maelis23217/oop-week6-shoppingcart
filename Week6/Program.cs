@@ -14,11 +14,17 @@ namespace Week6
             Orange o1 = new Orange();
             Orange o2 = new Orange();
             Orange o3 = new Orange();
+            Apple a1 = new Apple();
+            Apple a2 = new Apple();
+            Apple a3 = new Apple();
 
-            shop.orange.Add(o1);
-            shop.orange.Add(o2);
-            shop.orange.Add(o3);
+            shop.oranges.Add(o1);
+            shop.oranges.Add(o2);
+            shop.oranges.Add(o3);
 
+            shop.apples.Add(o1);
+            shop.apples.Add(o2);
+            shop.apples.Add(o3);
 
             Console.ReadKey();
 
